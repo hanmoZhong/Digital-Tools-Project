@@ -1,1 +1,3 @@
-./runner.sh
+mkdir ~/temp
+cd ~/temp
+printf hello
