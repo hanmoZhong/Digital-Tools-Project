@@ -1,0 +1,41 @@
+mkdir homework
+cd homework
+mkdir week3
+cd homework/week3
+mkdir data
+mkdir text
+cd text
+git add notes.txt
+git commit -m "add a notes.txt"
+cd data
+git add functions.py
+git commit -m "add a functions.py"
+cd week3
+git add data.gitignore
+git commit -m "add a data.gitignore"
+ 
+echo "THIS IS FINE" >notes.txt
+git add .
+git commit -m "a fine change"
+echo "THIS IS GOOD" >notes.txt
+git add .
+git commit --amend -m "a good change"
+git log
+echo "THIS IS BAD" >notes.txt
+git add .
+git commit --amend -m "a bad change"
+git restore notes.txt
+echo "THIS IS THE BEST" >notes.txt
+rm functions.py 
+git add .
+git commit -m "first-working"
+git log
+git revert e5392952d9a8ab8d17796fe84b84fdce89cadd57
+git clone https://github.com/hanmoZhong/Digital-Tools-Project.git repo
+git push repo main
+git reflog
+git revert b72b51b 
+git reset --hard 6d9ea68
+git add .
+git commit -m "previous homework submit"
+Git push
