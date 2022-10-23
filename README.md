@@ -10,13 +10,16 @@ yidan.chen@uzh.ch
 jingshu.yang@uzh.ch
 
 ## Project Structure
-1. Choose of Commodity
+1. Commodity Price Index
+
 2. Inflation Rate
+
 3. Analysis
 
 ## Data Source
 
 ## References
 [The Link Between Higher Commodity Prices and Inflation](https://research.stlouisfed.org/publications/economic-synopses/2021/09/08/the-link-between-higher-commodity-prices-and-inflation)
+
 [The Correlation of Commodities to Inflation](https://www.investopedia.com/articles/investing/020816/importance-commodity-pricing-understanding-inflation.asp)
 
