@@ -23,3 +23,4 @@ jingshu.yang@uzh.ch
 
 [The Correlation of Commodities to Inflation](https://www.investopedia.com/articles/investing/020816/importance-commodity-pricing-understanding-inflation.asp)
 
+[AEF.pdf](https://github.com/hanmoZhong/Digital-Tools-Project/files/9847371/AEF.pdf)
