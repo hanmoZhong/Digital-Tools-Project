@@ -1,0 +1,8 @@
+  527  git lfs install
+  528  brew install git-lfs
+  529  git lfs install
+  530  git lfs track /Users/chenyidan/homework_dft/week5_database/abcde.ftr
+  531  git add .gitattributes
+  532  git add /Users/chenyidan/homework_dft/week5_database/abcde.ftr
+  533  git commit -m "add feather file using lfs"
+  534  git push origin master
