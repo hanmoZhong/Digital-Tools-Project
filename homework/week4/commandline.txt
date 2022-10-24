@@ -1,0 +1,58 @@
+git pull
+cd homework
+mkdir week4
+cd week4
+mkdir test-alice
+touch functions.txt
+echo "xfunctions.txt
+git add .
+git commit -m "write a line"
+git push
+
+git pull
+git checkout -b nb
+git checkout nb
+cd homework/week4
+echo "THIS LINE IS BAD" >functions.txt
+git add .
+git commit -m "bad change"
+git push --set-upstream origin nb
+git push origin main
+
+
+git pull
+git checkout nb 
+cd homework/week4
+echo "THIS LINE IS STILL OK\nTHIS LINE IS OK" >functions.txt
+git add .
+git commit -m "good change"
+git push 
+
+
+git log
+git pull
+git checkout -b feature-1
+git checkout feature-1
+cd homework/week4
+echo "THIS LINE WAS BAD BUT NOW IS OK" >functions.txt
+git add .
+git commit -m "new change"
+git push --set-upstream origin feature-1
+git push
+
+git pull
+
+git pull
+git checkout feature-1
+cd homework/week4
+echo "THIS LINE IS FINALLY OK" >functions.txt
+git add .
+git commit -m "final change"
+git push
+
+git pull
+git checkout main
+git merge origin/feature-1
+git push 
+
+git pull
