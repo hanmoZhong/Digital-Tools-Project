@@ -10,9 +10,9 @@ yidan.chen@uzh.ch
 jingshu.yang@uzh.ch
 
 ## Project Structure
-1. Commodity Price Index
+1. Choose of Commodity Price Index
 
-2. Inflation Rate
+2. Chosse of CPI/Inflation Rate
 
 3. Analysis
 
@@ -42,7 +42,7 @@ c.if commodity grows faster than inflation, we can use commodity price as a pred
 
 [The impact of Rising Inflation & Interest Rates on Commodities](https://www.youtube.com/watch?v=lW0PCAP4wJE)
 
-
+[Commodity Price Indexes: Can They Predict Inflation?](https://www.stlouisfed.org/publications/regional-economist/july-1994/commodity-price-indexes-can-they-predict-inflation)
 
 
 
