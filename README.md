@@ -15,7 +15,8 @@ jingshu.yang@uzh.ch
 2. Inflation Rate
 
 3. Analysis
-a.do a regression of commodity prices on global inflation -- if slope>1 then is faster?
+a.commodity price & inflation correlation
+
 b.
 
 ## Data Source
