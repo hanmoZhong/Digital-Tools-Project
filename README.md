@@ -17,6 +17,7 @@ jingshu.yang@uzh.ch
 3. Analysis
 
 ## Data Source
+[https://fred.stlouisfed.org](https://fred.stlouisfed.org)
 
 ## References
 [The Link Between Higher Commodity Prices and Inflation](https://research.stlouisfed.org/publications/economic-synopses/2021/09/08/the-link-between-higher-commodity-prices-and-inflation)
