@@ -1,15 +1,15 @@
 df = pd.read_csv(r'/Users/chenyidan/homework_dft/week5_database/abcde.csv')
 HDF
 %time df.to_hdf("/Users/chenyidan/homework_dft/week5_database/abcde.h5", key="fx")
-CPU times: user 69.2 ms, sys: 75.2 ms, total: 144 ms
-Wall time: 249 ms
+CPU times: user 113 ms, sys: 118 ms, total: 231 ms
+Wall time: 453 ms
 
 Feather
 %time df.to_feather("/Users/chenyidan/homework_dft/week5_database/abcde.ftr")
-CPU times: user 63.4 ms, sys: 40.2 ms, total: 104 ms
-Wall time: 201 ms
+CPU times: user 46.7 ms, sys: 41.4 ms, total: 88 ms
+Wall time: 162 ms
 
 Parquet
 %time df.to_parquet("/Users/chenyidan/homework_dft/week5_database/abcde.gzip")
-CPU times: user 183 ms, sys: 44.3 ms, total: 228 ms
-Wall time: 559 ms
+CPU times: user 167 ms, sys: 51.7 ms, total: 218 ms
+Wall time: 319 ms
