@@ -1,8 +1,8 @@
-# 制定环境
+# formulate environment
 FROM python:latest
-# 把当前目录（.） 复制到docker image中./app文件夹
+# Copy the current directory (.) to the ./app folder in the docker image
 COPY . /app
-# 制定docker image的工作路径
+# Make the working path of the docker image
 WORKDIR /app
 # install dependencies
 RUN pip install numpy
@@ -16,7 +16,7 @@ CMD ["python", "plot.py"]
 # docker build ./ -t plot
 # docker images
 # docker run plot
-# 这个命令就可以生成container（虚拟机）
+# This command can generate a container (virtual machine)
 
 # docker ps -a
 # docker cp <container id from ps -a>:/app/plot.png ./
