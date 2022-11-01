@@ -10,30 +10,14 @@ yidan.chen@uzh.ch
 jingshu.yang@uzh.ch
 
 ## Project Structure
-1. Commodity price Index
+1.Data Source
+Ex Change Rate for G10 Countries; Duration: 2021-10-28: 2022-11-01,1 year daily;
 
-a.gold, oil
+2. Analysis Structure
 
-b.metals and metal products
+a.plot curves
 
-c.food raw materials
-
-d.global commodity price index
-
-2. Inflation rate in US
-
-3. Analysis
-
-a. Analysis of Influencing Factors of Natural Gas Price Fluctuation and Reasons for Abnormal Price
-
-b. Analysis of Inflation Influencing Factors and Fluctuation Causes
-
-c.if commodity grows faster than inflation, we can use commodity price as a predictor for inflation? 
-
-  3 views :
-  1.sees recent commodity-price trends as reflecting fundamental supply-and-demand developments in specific markets and not as a precursor of future inflation. 
-  2.the alternative view sees rising commodity prices as a precursor of future inflation. Commodity prices adjust much more rapidly to price pressures, including expected inflation, than other types of consumer-goods prices. 
-  3.seeing commodity-price patterns as a signal of future inflation
+b.Calculate VaR
 
 
 ## Data Source
