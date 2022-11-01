@@ -1,5 +1,5 @@
 # Digital-Tools-Project
-# Do commodity prices grow faster than global inflation? 
+# Does gas price in Europe grow faster than inflation? 
 ## Group Members
 baiyun.yuan@uzh.ch
 
@@ -10,15 +10,15 @@ yidan.chen@uzh.ch
 jingshu.yang@uzh.ch
 
 ## Project Structure
-1. Choose of Commodity Price Index
+1. Europe Gas Price Index in the latest 5 years
 
-2. Chosse of CPI/Inflation Rate
+2. Chosse of CPI/Inflation Rate in Europe
 
 3. Analysis
 
-a.commodity price & inflation correlation
+a. Analysis of Influencing Factors of Natural Gas Price Fluctuation and Reasons for Abnormal Price
 
-b.commodity price & inflation regression
+b. Analysis of Inflation Influencing Factors and Fluctuation Causes
 
 c.if commodity grows faster than inflation, we can use commodity price as a predictor for inflation? 
 
