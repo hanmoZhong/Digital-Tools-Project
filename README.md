@@ -13,11 +13,13 @@ jingshu.yang@uzh.ch
 1.Data Source
 Ex Change Rate for G10 Countries; Duration: 2021-10-28: 2022-11-01,1 year daily;
 
-2. Analysis Structure
+2.Analysis Structure
 
 a.plot curves
 
 b.Calculate VaR
+
+c.Qualitative Analysis
 
 
 ## Data Source
