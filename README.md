@@ -1,5 +1,5 @@
 # Digital-Tools-Project
-# Does gas price in Europe grow faster than inflation? 
+# Does comodity prices grow faster than inflation rate in US? 
 ## Group Members
 baiyun.yuan@uzh.ch
 
@@ -10,9 +10,17 @@ yidan.chen@uzh.ch
 jingshu.yang@uzh.ch
 
 ## Project Structure
-1. Europe Gas Price Index in the latest 5 years
+1. Commodity price Index
 
-2. Chosse of CPI/Inflation Rate in Europe
+a.gold, oil
+
+b.metals and metal products
+
+c.food raw materials
+
+d.global commodity price index
+
+2. Inflation rate in US
 
 3. Analysis
 
