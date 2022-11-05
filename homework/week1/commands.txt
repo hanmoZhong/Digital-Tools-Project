@@ -1,0 +1,16 @@
+   35  cd ˜
+   36  cd ～
+   37  cd Desktop
+   38  cd Digital-Tools-Project
+   39  ls
+   40  cd homework/week 1
+   41  cd homework/week1
+   42  echo $path > path.txt
+   43  $path
+   44  SPATH
+   45  $PATH
+   46  $Path
+   47  $PATH
+   48  python
+   49  $PATH
+   50  history tail-20 > commands.txt

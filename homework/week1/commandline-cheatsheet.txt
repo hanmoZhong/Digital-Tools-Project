@@ -12,7 +12,7 @@ find .. hello.txt
 find /home -name *.png
 whereis echo
 man ps | grep "Select all process"
-history 20 > commands.txt
+history | tail -20 > commands.txt
 nano runner.sh
 ./runner.sh 'hello'
 ls -l runner.sh
