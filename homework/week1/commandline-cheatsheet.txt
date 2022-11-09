@@ -6,7 +6,7 @@ git commit -m "add a txt file"
 echo "'hello world'" > hello.txt
 ls ..
 ps aux
-kill -666
+kill -9 666
 printenv PATH > path.txt
 find .. hello.txt
 find /home -name *.png
