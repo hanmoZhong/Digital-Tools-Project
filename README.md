@@ -1,31 +1,4 @@
-# Digital-Tools-Project
-# Do commodity prices grow faster than global inflation? 
-## Group Members
-baiyun.yuan@uzh.ch
 
-hanmo.zhong@uzh.ch
-
-yidan.chen@uzh.ch
-
-jingshu.yang@uzh.ch
-
-## Project Structure
-1. Choose of Commodity Price Index
-
-2. Chosse of CPI/Inflation Rate
-
-3. Analysis
-
-a.commodity price & inflation correlation
-
-b.commodity price & inflation regression
-
-c.if commodity grows faster than inflation, we can use commodity price as a predictor for inflation? 
-
-  3 views :
-  1.sees recent commodity-price trends as reflecting fundamental supply-and-demand developments in specific markets and not as a precursor of future inflation. 
-  2.the alternative view sees rising commodity prices as a precursor of future inflation. Commodity prices adjust much more rapidly to price pressures, including expected inflation, than other types of consumer-goods prices. 
-  3.seeing commodity-price patterns as a signal of future inflation
 
 
 ## Data Source
