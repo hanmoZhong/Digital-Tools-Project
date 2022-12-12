@@ -11,7 +11,7 @@ jingshu.yang@uzh.ch
 
 ## Project Structure
 1.Data Source
-Ex Change Rate for G10 Countries; Duration: 2021-10-28: 2022-11-01,1 year daily;
+We collect G10 currency from FRED, an open economic datasource.
 
 2.Analysis Structure
 
