@@ -1,5 +1,5 @@
 # Digital-Tools-Project
-# Does comodity prices grow faster than inflation rate in US? 
+# Which of the G10 currencies is the riskiest to hold for an investor?
 ## Group Members
 baiyun.yuan@uzh.ch
 
@@ -18,13 +18,6 @@ Ex Change Rate for G10 Countries; Duration: 2021-10-28: 2022-11-01,1 year daily;
 a.plot curves
 
 b.Calculate VaR
-
-c.Qualitative Analysis
-
-
-## Data Source
-
-## References
 
 
 
