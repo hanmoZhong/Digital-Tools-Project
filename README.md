@@ -9,9 +9,11 @@ We collect G10 currency from FRED Data, an open economic datasource. We take G10
 The G10 currencies are: Australian dollar(al), Pound sterling(uk), Euro(eu), Swiss franc(sz), Norwegian krone(no), Japanese yen(jp),Canadian dollar(ca), New Zealand dollar(nz), Swedish krona(sd) and USD which we use as a base currency since our investor is an American resident.
 
 * Data Crawl
-We build a Database
+
+We build a Database which allow users to crawl from FRED Data website to get the latest 1 year G10 currency echange rate to USD dollar.
 
 * Data Processing
+
 We now have a dataset which contains the daily exchange rate of each G10 currency to USD Dollar. 
 To deal with missing values due to holidays we use code
 ```
