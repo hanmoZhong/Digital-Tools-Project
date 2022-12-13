@@ -94,8 +94,12 @@ We can see all the G10 currencies' exchange to USD are highly correlated, and Sw
 
 
 ## Reproducibility
+
+The user can reproduce our research by running the Jupyter Noteboook in the repository, and also he can choose other currencies to look at(not just G10 currencies) by change the URL code when buiding the dataset.
 ```
-code blocks for commands
+ROOT_URL_DEXSDUS="https://api.stlouisfed.org/fred/series/observationsseries_id=DEXSDUS&api_key=4f7fcecc2234fbd09478ce8b8f0a3725&file_type=json"
+ROOT_URL_DEXUSNZ="https://api.stlouisfed.org/fred/series/observationsseries_id=DEXUSNZ&api_key=4f7fcecc2234fbd09478ce8b8f0a3725&file_type=json"
+ROOT_URL_DEXCAUS="https://api.stlouisfed.org/fred/series/observationsseries_id=DEXCAUS&api_key=4f7fcecc2234fbd09478ce8b8f0a3725&file_type=json"
 ```
 
 ## Data Source
@@ -113,5 +117,3 @@ hanmo.zhong@uzh.ch
 yidan.chen@uzh.ch
 
 jingshu.yang@uzh.ch
-
-an informative README file briefly explaining the main finding, and indicating any information needed to reproduce the findings:
