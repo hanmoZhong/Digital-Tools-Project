@@ -16,6 +16,11 @@ Which G10 currency is the riskiest for an American resident to hold? We want to 
 
 * Volatility
 
+## Reproducibility
+```
+code blocks for commands
+```
+
 ## Data Source
 [https://fred.stlouisfed.org](https://fred.stlouisfed.org)
 
