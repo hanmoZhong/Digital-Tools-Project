@@ -13,6 +13,10 @@ The G10 currencies are: Australian dollar(al), Pound sterling(uk), Euro(eu), Swi
 Which G10 currency is the riskiest for an American resident to hold? We want to figure out the question in this setting by looking at the riskiness of each asset. We refer to IMF's working paper "Exchange Rate Risk Measurement and Management:Issues and Approaches for Firms" and follow the measurement of exchange rate risk discussed in the paper. We also calculate the price volatility for each currency.
 
 * VaR Calculation
+The VaR calculation depends on 3 parameters:
+  * The holding period, i.e., the length of time over which the foreign exchange position is planned to be held. In our setting the holding period is 1 day.
+  * The confidence level at which the estimate is planned to be made. In our setting the confidence level at 95 percent.
+  * The unit of currency to be used for the denomination of the VaR. We use USD dollar as the base currency.
 
 * Volatility
 
