@@ -66,7 +66,26 @@ We calculate VaR value for each nine currency under 3 different models, the tabl
   <img src="https://user-images.githubusercontent.com/103332502/207396522-3e3026d6-33ff-4357-9b8e-9f3b104f6891.png" />
 </p>
 
+We see Norwegian Krone is the riskiest asset under all three method, and it has the probability of 5% of losing 1.3% in one day in the fisrt two methods and the probability of 5% of losing 1.9% in one day.
+
 * Volatility
+
+The second way to measure riskiness is to look at volatility, which measures the dispersion of the returns.
+
+  <p align="center">
+  <img src="https://user-images.githubusercontent.com/103332502/207399427-20c23a7b-d2e1-4c53-bc1b-583087676579.png" />
+</p>
+
+By the calculating results we see that Japanese yen has the highest volatility, which means it is relatively riskier than other currencies.
+
+* Variance-Covariance Matrix
+
+
+  <p align="center">
+  <img src="https://user-images.githubusercontent.com/103332502/207399989-3359dd7f-a010-4c72-9185-3205f841b9ae.png" />
+</p>
+
+
 
 ## Reproducibility
 ```
