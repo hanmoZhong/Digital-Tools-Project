@@ -59,7 +59,12 @@ To calculate VaR, we use 3 different widely-used models:
   <img src="https://user-images.githubusercontent.com/103332502/207393760-e17377c1-e71b-4477-ba74-03ce87e0cb18.png"  /> 
 </p>
 
+* Results
 
+We calculate VaR value for each nine currency under 3 different models, the table below shows the results:
+  <p align="center">
+  <img src="https://user-images.githubusercontent.com/103332502/207396522-3e3026d6-33ff-4357-9b8e-9f3b104f6891.png" />
+</p>
 
 * Volatility
 
