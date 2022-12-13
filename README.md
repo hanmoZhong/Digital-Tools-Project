@@ -34,6 +34,9 @@ To calculate VaR, we use 3 different widely-used models:
   The historical simulation is the simplest method of calculation. For each currency we plot historical return distribution and calculate VaR at 5% level.
   
   ![return density plot](https://user-images.githubusercontent.com/103332502/207389480-5deecc36-dc1f-40e2-b70c-34b7e7385875.png)
+<p align="center">
+  <img src="[http://some_place.com/image.png](https://user-images.githubusercontent.com/103332502/207389480-5deecc36-dc1f-40e2-b70c-34b7e7385875.png)" />
+</p>
 
 
   * Variance-Covariance model
