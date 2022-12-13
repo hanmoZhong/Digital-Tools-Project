@@ -24,6 +24,7 @@ to get a return dataset called df_ret.
 Which G10 currency is the riskiest for an American resident to hold? We want to figure out the question in this setting by looking at the riskiness of each asset. We refer to IMF's working paper "Exchange Rate Risk Measurement and Management:Issues and Approaches for Firms" and follow the measurement of exchange rate risk discussed in the paper. We also calculate the price volatility for each currency.
 
 * VaR Calculation
+
 The VaR calculation depends on 3 parameters:
   * The holding period, i.e., the length of time over which the foreign exchange position is planned to be held. In our setting the holding period is 1 day.
   * The confidence level at which the estimate is planned to be made. In our setting the confidence level at 95 percent.
@@ -31,6 +32,7 @@ The VaR calculation depends on 3 parameters:
 
 To calculate VaR, we use 3 different widely-used models:
   * Historical Simulation
+
   The historical simulation is the simplest method of calculation. For each currency we plot historical return distribution and calculate VaR at 5% level.
 
 <p align="center">
@@ -39,7 +41,14 @@ To calculate VaR, we use 3 different widely-used models:
 
 
   * Variance-Covariance model
+
   The variance – covariance model assumes that (1)the change in the value of a firm’s total foreign exchange position is a linear combination of all the changes in the values of individual foreign exchange positions, so that also the total currency return is linearly dependent on all individual currency returns; and (2)the currency returns are jointly normally distributed. Since in our setting we only allow investor to trade one single currency, in this model we only need to assume the return of each currency is normally distributed.
+  For each currency we plot normally distributed historical return and calculate VaR at 5% level.
+  
+  <p align="center">
+  <img src="https://user-images.githubusercontent.com/103332502/207391751-a41baf1a-866e-47d9-a8aa-746c53aebe9c.png" />
+</p>
+  
   
   * Monte Carlo Simulation
 
@@ -67,3 +76,6 @@ yidan.chen@uzh.ch
 jingshu.yang@uzh.ch
 
 an informative README file briefly explaining the main finding, and indicating any information needed to reproduce the findings:
+
+![normal dist](https://user-images.githubusercontent.com/103332502/207391751-a41baf1a-866e-47d9-a8aa-746c53aebe9c.png)
+
