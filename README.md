@@ -9,6 +9,8 @@ We collect G10 currency from FRED Data, an open economic datasource. We take G10
 The G10 currencies are: Australian dollar(al), Pound sterling(uk), Euro(eu), Swiss franc(sz), Norwegian krone(no), Japanese yen(jp),Canadian dollar(ca), New Zealand dollar(nz), Swedish krona(sd) and USD which we use as a base currency since our investor is an American resident.
 
 * Data Crawl
+We build a Database
+
 * Data Processing
 We now have a dataset which contains the daily exchange rate of each G10 currency to USD Dollar. 
 To deal with missing values due to holidays we use code
@@ -80,12 +82,13 @@ By the calculating results we see that Japanese yen has the highest volatility, 
 
 * Variance-Covariance Matrix
 
+We also plot a Variance-Covariance Matrix for the nine currencies to see the correlation.
 
   <p align="center">
   <img src="https://user-images.githubusercontent.com/103332502/207399989-3359dd7f-a010-4c72-9185-3205f841b9ae.png" />
 </p>
 
-We also plot a Variance-Covariance Matrix for the nine currencies to see the correlation.We can see all the G10 currencies' exchange to USD are highly correlated, and Swiss Franc has a negative correlation with all other currencies. This gives us intuition that it's hard to do risk diversification using only G10 currencies since they are highly correlated, also the investor can use swiss franc to hedge against risk.
+We can see all the G10 currencies' exchange to USD are highly correlated, and Swiss Franc has a negative correlation with all other currencies. This gives us intuition that it's hard to do risk diversification using only G10 currencies since they are highly correlated, also the investor can use swiss franc to hedge against risk.
 
 
 ## Reproducibility
