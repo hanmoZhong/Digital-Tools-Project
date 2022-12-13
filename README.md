@@ -85,6 +85,7 @@ By the calculating results we see that Japanese yen has the highest volatility, 
   <img src="https://user-images.githubusercontent.com/103332502/207399989-3359dd7f-a010-4c72-9185-3205f841b9ae.png" />
 </p>
 
+We also plot a Variance-Covariance Matrix for the nine currencies to see the correlation.We can see all the G10 currencies' exchange to USD are highly correlated, and Swiss Franc has a negative correlation with all other currencies. This gives us intuition that it's hard to do risk diversification using only G10 currencies since they are highly correlated, also the investor can use swiss franc to hedge against risk.
 
 
 ## Reproducibility
