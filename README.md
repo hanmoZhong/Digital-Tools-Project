@@ -32,11 +32,11 @@ The VaR calculation depends on 3 parameters:
 To calculate VaR, we use 3 different widely-used models:
   * Historical Simulation
   The historical simulation is the simplest method of calculation. For each currency we plot historical return distribution and calculate VaR at 5% level.
-  
-  ![return density plot](https://user-images.githubusercontent.com/103332502/207389480-5deecc36-dc1f-40e2-b70c-34b7e7385875.png)
+
 <p align="center">
-  <img src="[http://some_place.com/image.png](https://user-images.githubusercontent.com/103332502/207389480-5deecc36-dc1f-40e2-b70c-34b7e7385875.png)" />
+  <img src="http://some_place.com/image.png" />
 </p>
+
 
 
   * Variance-Covariance model
@@ -66,3 +66,5 @@ yidan.chen@uzh.ch
 jingshu.yang@uzh.ch
 
 an informative README file briefly explaining the main finding, and indicating any information needed to reproduce the findings:
+
+ ![return density plot](https://user-images.githubusercontent.com/103332502/207389480-5deecc36-dc1f-40e2-b70c-34b7e7385875.png)
