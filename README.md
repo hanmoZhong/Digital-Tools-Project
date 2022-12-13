@@ -52,10 +52,14 @@ To calculate VaR, we use 3 different widely-used models:
   
   * Monte Carlo Simulation
   
-  We use Monte-carlo simulation to simulate the price and return for each currency, for computing simplicity and plot readability we run 10 times simulations, but we can change the time whenever we want. We then calculate VaR of return for each currency simulation. Below we show a simulation we run for Japanese yen.
+  We use Monte-carlo simulation to simulate the price and return for each currency, for computing simplicity and plot readability we run 10 times simulations, but we can change the time whenever we want. We then calculate VaR of return for each currency simulation. Below we show a price and return simulation for Japanese yen.
   
-  <p align="center">
+  <p align="left">
   <img src="https://user-images.githubusercontent.com/103332502/207393192-318fd34b-e205-489b-94b5-45e51128786e.png" />
+</p>
+
+  <p align="right">
+  <img src="https://user-images.githubusercontent.com/103332502/207393760-e17377c1-e71b-4477-ba74-03ce87e0cb18.png" />
 </p>
   
 
