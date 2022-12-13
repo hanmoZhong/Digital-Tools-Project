@@ -38,8 +38,9 @@ To calculate VaR, we use 3 different widely-used models:
 </p>
 
 
-
   * Variance-Covariance model
+  The variance – covariance model assumes that (1)the change in the value of a firm’s total foreign exchange position is a linear combination of all the changes in the values of individual foreign exchange positions, so that also the total currency return is linearly dependent on all individual currency returns; and (2)the currency returns are jointly normally distributed. Since in our setting we only allow investor to trade one single currency, in this model we only need to assume the return of each currency is normally distributed.
+  
   * Monte Carlo Simulation
 
 * Volatility
@@ -66,5 +67,3 @@ yidan.chen@uzh.ch
 jingshu.yang@uzh.ch
 
 an informative README file briefly explaining the main finding, and indicating any information needed to reproduce the findings:
-
- ![return density plot](https://user-images.githubusercontent.com/103332502/207389480-5deecc36-dc1f-40e2-b70c-34b7e7385875.png)
