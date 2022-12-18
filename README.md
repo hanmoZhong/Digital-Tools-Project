@@ -7,19 +7,19 @@ Our group’s files are stored in the folder named “Main”. Within the folder
 
 Crawl_Data: 
 
-Crawl_data.py:python file used to crawl data from FRED 
+Crawl_data.py: python file used to crawl data from FRED 
 
 crawl_list_11.6.csv: csv file exported from database, from 2021.11.08 to 2022.11.08.
 
 currency_data_11.6.db: exchange rate database we build, from 2021.11.08 to 2022.11.08.
 
-Presentation:  Presentation Powerpoint using LaTex
+Presentation: Presentation Powerpoint using LaTex
 
 Digital_Tools_Final_Presentaion: latex code for writting Presentaion PowerPoint and png/jpg files.
 
-app.ipynb:interactive app (Jupyter notebook) describing the main finding
+app.ipynb: interactive app (Jupyter notebook) describing the main finding
 
-The user can reproduce our research by running this Jupyter Noteboook,he can choose other currencies to look at(not just G10 currencies) by change the URL code when buiding the dataset in the code.
+The user can reproduce our research by running this Jupyter Noteboook, can choose other currencies to look at(not just G10 currencies) by change the URL code when buiding the dataset in the code.
 ```
 ROOT_URL_DEXSDUS="https://api.stlouisfed.org/fred/series/observationsseries_id=DEXSDUS&api_key=4f7fcecc2234fbd09478ce8b8f0a3725&file_type=json"
 ROOT_URL_DEXUSNZ="https://api.stlouisfed.org/fred/series/observationsseries_id=DEXUSNZ&api_key=4f7fcecc2234fbd09478ce8b8f0a3725&file_type=json"
