@@ -1,6 +1,26 @@
 # Digital-Tools-Project
 # Which of the G10 currencies is the riskiest to hold for an American resident?
 
+## Reproducibility
+
+Our group’s files are stored in the folder named “Main”. Within the folder you can find:
+
+Crawl_Data: contains the files used to crawl the exchange rate data from FRED, the database
+
+Presentation:  Presentation Powerpoint using LaTex
+
+Digital_Tools_Final_Presentaion: Final Presentation Powerpoint written with latex code
+
+app.ipynb:interactive app (Jupyter notebook) describing the main finding
+
+The user can reproduce our research by running this Jupyter Noteboook,he can choose other currencies to look at(not just G10 currencies) by change the URL code when buiding the dataset in the code.
+```
+ROOT_URL_DEXSDUS="https://api.stlouisfed.org/fred/series/observationsseries_id=DEXSDUS&api_key=4f7fcecc2234fbd09478ce8b8f0a3725&file_type=json"
+ROOT_URL_DEXUSNZ="https://api.stlouisfed.org/fred/series/observationsseries_id=DEXUSNZ&api_key=4f7fcecc2234fbd09478ce8b8f0a3725&file_type=json"
+ROOT_URL_DEXCAUS="https://api.stlouisfed.org/fred/series/observationsseries_id=DEXCAUS&api_key=4f7fcecc2234fbd09478ce8b8f0a3725&file_type=json"
+```
+
+
 ## Project Structure
 ### 1.Data Source
 
@@ -91,16 +111,6 @@ We also plot a Variance-Covariance Matrix for the nine currencies to see the cor
 </p>
 
 We can see all the G10 currencies' exchange to USD are highly correlated, and Swiss Franc has a negative correlation with all other currencies. This gives us intuition that it's hard to do risk diversification using only G10 currencies since they are highly correlated, also the investor can use swiss franc to hedge against risk.
-
-
-## Reproducibility
-
-The user can reproduce our research by running the Jupyter Noteboook in the repository, and also he can choose other currencies to look at(not just G10 currencies) by change the URL code when buiding the dataset.
-```
-ROOT_URL_DEXSDUS="https://api.stlouisfed.org/fred/series/observationsseries_id=DEXSDUS&api_key=4f7fcecc2234fbd09478ce8b8f0a3725&file_type=json"
-ROOT_URL_DEXUSNZ="https://api.stlouisfed.org/fred/series/observationsseries_id=DEXUSNZ&api_key=4f7fcecc2234fbd09478ce8b8f0a3725&file_type=json"
-ROOT_URL_DEXCAUS="https://api.stlouisfed.org/fred/series/observationsseries_id=DEXCAUS&api_key=4f7fcecc2234fbd09478ce8b8f0a3725&file_type=json"
-```
 
 ## Data Source
 [https://fred.stlouisfed.org](https://fred.stlouisfed.org)
