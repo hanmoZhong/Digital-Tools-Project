@@ -3,7 +3,7 @@
 
 ## Reproducibility
 
-Our group’s files are stored in the folder named “Main”. Within the folder you can find:
+Our group’s files are stored in the folder named “Final”. Within the folder you can find:
 
 Crawl_Data: 
 
