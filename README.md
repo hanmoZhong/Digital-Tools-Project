@@ -5,11 +5,17 @@
 
 Our group’s files are stored in the folder named “Main”. Within the folder you can find:
 
-Crawl_Data: contains the files used to crawl the exchange rate data from FRED, the database
+Crawl_Data: 
+
+Crawl_data.py:python file used to crawl data from FRED 
+
+crawl_list_11.6.csv: csv file exported from database, from 2021.11.08 to 2022.11.08.
+
+currency_data_11.6.db: exchange rate database we build, from 2021.11.08 to 2022.11.08.
 
 Presentation:  Presentation Powerpoint using LaTex
 
-Digital_Tools_Final_Presentaion: Final Presentation Powerpoint written with latex code
+Digital_Tools_Final_Presentaion: latex code for writting Presentaion PowerPoint and png/jpg files.
 
 app.ipynb:interactive app (Jupyter notebook) describing the main finding
 
