@@ -7,7 +7,7 @@ Our group’s files are stored in the folder named “Main”. Within the folder
 
 Crawl_Data: 
 
-Crawl_data.py: python file used to crawl data from FRED 
+Crawl_data.py: python file used to reproducibly crawl data from FRED 
 
 crawl_list_11.6.csv: csv file exported from database, from 2021.11.08 to 2022.11.08.
 
@@ -18,6 +18,10 @@ Presentation: Presentation Powerpoint using LaTex
 Digital_Tools_Final_Presentaion: latex code for writting Presentaion PowerPoint and png/jpg files.
 
 app.ipynb: interactive app (Jupyter notebook) describing the main finding
+
+Digital_tools_report.pdf: The final report using LaTex via online overleaf.
+
+Digital-tools-report.zip: All images, reference and tex for writting report.
 
 The user can reproduce our research by running this Jupyter Noteboook, can choose other currencies to look at(not just G10 currencies) by change the URL code when buiding the dataset in the code.
 ```
